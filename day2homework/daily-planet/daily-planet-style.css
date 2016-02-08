@@ -8,17 +8,51 @@ header, nav, main, section, aside, footer {
     margin-top: 10px;
 }
 
-section, aside {
-    float: left;
+aside {
+    float: right;
 }
 
 section {
-    width: 70%
+    width: 70%;
+    float: left;
 }
 aside {
-    width: 20%;
+    width:20px;
+    margin-right: -90px;
+    margin-top: -900px;
 }
 
 footer {
     clear: both;
+    
+}
+header {
+    margin:auto;
+    background-color:black;
+}
+body {
+    background-color: #b7b794
+}
+div {
+    height: 930px;
+    width:850px;
+    background-color:#5b5b3e
+}
+table td {
+    border: 1px black solid
+}
+.box {
+    width: 400px;
+}
+#first {
+    width:813px;
+}
+#image {
+    margin-left: 100px;
+}
+td {
+    padding: 5px 5px 5px 5px;
+}
+article {
+    font-family: Helvetica, sans-serif;
 }
