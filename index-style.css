@@ -1,0 +1,17 @@
+
+/*.diamond {
+  background-color:#00cc99;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    order: 0;
+    margin: 60px;
+}
+div {
+    border: 1px solid #00cc99;
+    outline-color: #00cc99;
+    outline-style: groove;
+}
+.text {
+   order: 1;
+}*/
