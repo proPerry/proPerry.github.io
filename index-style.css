@@ -4,13 +4,12 @@
     width: 150px;
     height: 150px;
     transform: rotate(45deg);
-    order: 0;
-}
-div {
+    margin: 50px;
     border: 1px solid #00cc99;
     outline-color: #00cc99;
     outline-style: groove;
 }
 .text {
-   order: 1;
+    position: relative;
+    z-index: 1;
 }*/
