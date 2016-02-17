@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+}
+#img {
+    height: 450px;
+    width: 850px;
+    background-image: url(nasa-background.jpg);
+    margin-bottom: 25px;
+}
+h1 {
+    text-align: center;
+    line-height:450px;
+    color:white;
+    font-size: 80px;
+    font-weight: bold;
+}
+p {
+    color: #656765;
+}
+.bottom {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+#grey {
+    background-color: #e5e6e5;
+    height: 324px;
+    width: 850px;
+}
+h3 {
+    font-weight: bold;
+}
+.caps {
+    text-transform: uppercase;
+}
+p {
+    line-height: 1.5;
+}
+input {
+    margin-bottom: 10px;
+    border:none;
+}
+input[name="Message"] {
+    height: 70px;
+}
+input[name="Name"] {
+    height: 25px;
+}
+input[value="send"] {
+    background-color: #3f403f;
+    color:white;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
