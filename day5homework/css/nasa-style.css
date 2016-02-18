@@ -47,6 +47,9 @@ input[name="Message"] {
 input[name="Name"] {
     height: 25px;
 }
+form {
+    color: #656765;
+}
 input[value="send"] {
     background-color: #3f403f;
     color:white;
