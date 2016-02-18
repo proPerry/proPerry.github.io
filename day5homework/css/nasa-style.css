@@ -17,19 +17,19 @@ h1 {
 p {
     color: #656765;
 }
+#social {
+    padding-left: 25px;
+}
 .bottom {
     float: left;
     width: 270px;
     margin-right: 20px;
-    padding-left: 20px;
+    padding-top: 20px;
 }
 #grey {
     background-color: #e5e6e5;
     height: 324px;
     width: 850px;
-}
-h3 {
-    font-weight: bold;
 }
 .caps {
     text-transform: uppercase;
@@ -43,9 +43,11 @@ input {
 }
 input[name="Message"] {
     height: 70px;
+    width: 210px;
 }
 input[name="Name"] {
     height: 25px;
+    width: 210px;
 }
 form {
     color: #656765;
