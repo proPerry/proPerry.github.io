@@ -1,13 +1,9 @@
 
 body {
     font-family: 'Arial', sans-serif;
-}
-
-main, footer {
     width: 1024px;
     margin: auto;
 }
-
 header {
     background-color: #0071c5;
     padding: 10px;

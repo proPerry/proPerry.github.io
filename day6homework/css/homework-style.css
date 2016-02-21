@@ -1,0 +1,108 @@
+body {
+    Width: 810px;
+    font-family: sans-serif;
+}
+nav {
+    width: 550px;
+    margin: auto;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+header {
+    text-align: center;
+}
+.article {
+    float: left;
+    width: 350px;
+    background-color:#f2f2f2;
+    padding: 10px;
+    margin-right: 20px;
+}
+.clear-fix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+.article img {
+    width: 100%;
+}
+h3 {
+    font-weight: 200;
+}
+aside {
+    float:left;
+    width: 420px;
+    height: 300px;
+}
+.article a {
+    float:right;
+    color:#00cc00;
+    font-size: 13px;
+}
+.box {
+    width: 420px;
+    height: 90px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+}
+.box h3 {
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 145px;
+}
+.box img {
+    width: 35%;
+    float: left;
+    padding: 10px;
+}
+.box p {
+    margin-top: -15px;
+    font-size: 13px;
+    padding-right: 50px;
+    line-height: 20px;
+}
+footer {
+    clear: both;
+    height: 160px;
+    margin-top: 440px;
+    padding: 15px;
+}
+h4 {
+    font-weight:200;
+}
+p {
+    font-size: 10px;
+}
+.left {
+    float: left;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.middle {
+    float: left;
+    border-left: 2px solid #f2f2f2;
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+li {
+    line-height: 1.5px;
+}
+.right {
+    float: left;
+    border-left: 2px solid #f2f2f2;
+    width: 225px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.right a {
+     float:right;
+    color:#00cc00;
+    font-size: 13px;
+}
+
+
+/* for lines around divs in the footer have the top and bottom of the footer have a border and the left of the second and third divs in the footer have a border*/
