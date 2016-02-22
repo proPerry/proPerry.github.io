@@ -2,11 +2,15 @@ body {
     Width: 810px;
     font-family: sans-serif;
 }
+h1 {
+    font-weight:200;
+    color: #808080;
+}
 nav {
     width: 550px;
     margin: auto;
     line-height: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 header {
     text-align: center;
@@ -28,6 +32,7 @@ header {
 }
 h3 {
     font-weight: 200;
+    color: #808080
 }
 aside {
     float:left;
@@ -64,31 +69,35 @@ aside {
 }
 footer {
     clear: both;
-    height: 160px;
+    height: 130px;
     margin-top: 440px;
     padding: 15px;
+    padding-bottom: 0px;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
 }
 h4 {
     font-weight:200;
+    color: #808080;
 }
 p {
     font-size: 10px;
+    color: #999999;
 }
 .left {
     float: left;
     padding-left: 25px;
     padding-right: 50px;
-    padding-bottom: 10px;
 }
 .middle {
     float: left;
     border-left: 2px solid #f2f2f2;
     padding-left: 25px;
     padding-right: 50px;
-    padding-bottom: 10px;
 }
 li {
     line-height: 1.5px;
+    color:  #999999;
 }
 .right {
     float: left;
@@ -96,13 +105,10 @@ li {
     width: 225px;
     padding-left: 25px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
 }
 .right a {
      float:right;
     color:#00cc00;
     font-size: 13px;
 }
-
-
-/* for lines around divs in the footer have the top and bottom of the footer have a border and the left of the second and third divs in the footer have a border*/
