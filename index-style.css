@@ -1,15 +1,4 @@
-
-/*.diamond {
-  background-color:#00cc99;
-    width: 150px;
-    height: 150px;
-    transform: rotate(45deg);
-    margin: 50px;
-    border: 1px solid #00cc99;
-    outline-color: #00cc99;
-    outline-style: groove;
+body {
+    width: 1024px;
 }
-.text {
-    position: relative;
-    z-index: 1;
-}*/
+/*I have a plan for this index, I just have to figure out how to execute*/
