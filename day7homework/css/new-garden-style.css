@@ -1,10 +1,39 @@
+body {
+    font-family: sans-serif
+}
 #background {
     background-image: url('../img/1.jpg');
     background-repeat: no-repeat;
-    width: 1300px;
-    height: 400px;
+    background-size: 800px;
+    width: 800px;
+    height: 220px;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 90px;
+}
+main p {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 2
+}
+h4 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#contact {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: #B8DB48;
+    border-radius: 1px;
 }
 aside {
     float: left;
@@ -33,8 +62,9 @@ section {
     background-size:580px;
     float: left;
     width: 480px;
-    height: 270px;
+    height: 220px;
     padding: 50px;
+    padding-top: 100px;
 }
 .clear-fix:after {
     content:'';
@@ -44,19 +74,22 @@ section {
 h2 {
     color: white;
     text-transform: uppercase;
+    margin-top: 15px;
     font-size: 1.5em;
+    font-weight: 600;
 }
 .small-box p {
     color: green;
 }
 h3 {
-    color: #99e600;
+    color: #73e600;
     line-height: 3;
+    font-size: 13px
 }
 section p {
     color: white;
     font-size: 13px;
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 20px;
 }
 #more {
@@ -66,14 +99,14 @@ section p {
     font-size: 12px;
     padding: 8px 15px;
     background-color: #595959;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 #our {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
-    padding: 8px 15px;
+    padding: 6px 13px;
     border: 2px solid white;
 }
 /*APPARENTLY to fix the padding problem, you must set the padding with a width in place, then drop the width to something really low and incrimentally go up until you get to the width of the image, because that makes sense.*/
