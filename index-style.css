@@ -4,6 +4,7 @@ body {
     background-color: blueviolet;
     color: white;
     font-family:sans-serif;
+    margin: auto;
 }
 .one {
     width: 768px;
