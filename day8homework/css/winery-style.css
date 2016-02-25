@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1600px;
+    margin: auto;
+}
+header {
+    height: 20px;
+    padding: 15px;
+}
+header h1{
+    float: left;
+    text-transform:uppercase;
+}
+nav {
+    float: right;
+}
+header nav a {
+    text-decoration: none;
+    color: black; /*make grey later*/
+    margin-left: 10px;
+}
+header nav a:hover {
+    text-decoration:underline;
+}
+#hero {
+    color: white;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url('../img/wine-bg.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding-top: 250px;
+}
+#hero h2 {
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+h3 {
+    font-family: 'Slabo 27px', serif;
+}
