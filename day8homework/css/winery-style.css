@@ -1,17 +1,20 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    width: 1600px;
+    width: 1300px;
     margin: auto;
 }
 header {
-    height: 20px;
+    height: 30px;
     padding: 15px;
 }
 header h1{
     float: left;
+	font-size: 25px;
     text-transform:uppercase;
 }
 nav {
+	padding-top: 5px;
+	font-size: 15px;
     float: right;
 }
 header nav a {
@@ -26,14 +29,100 @@ header nav a:hover {
     color: white;
     background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url('../img/wine-bg.jpg');
     background-repeat: no-repeat;
-    height: 500px;
+	background-size:cover;
+    height: 400px;
+	width: 1300px;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 #hero h2 {
     font-size: 70px;
+	margin-top: -10px;
     margin-bottom: 100px;
 }
 h3 {
-    font-family: 'Slabo 27px', serif;
+    font-family:'Merriweather', serif;
+}
+#text {
+	float: left;
+	width: 650px;
+}
+#text p {
+	text-align: center;
+	color: lightgrey;
+	padding-top: 180px;
+	padding-bottom: 60px;
+}
+#text h3 {
+	font-family:'Merriweather', serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	padding-right: 90px;
+}
+#text h4 { 
+	text-align: center;
+	padding: 40px 100px 0px 30px;
+}
+.clear-fix:after {
+	content:'';
+    display: block;
+    clear: both;
+}
+section .clear-fix img {
+	height : 700px;
+	float: right;
+	padding-right: 100px;
+}
+#break {
+	background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url(../img/wine13.jpg) no-repeat;
+	background-size: 1400px;
+	height: 420px;
+}
+#break h3 {
+	font-family:'Merriweather', serif;
+	font-style: italic;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	padding: 110px 60px 50px;
+}
+#break p {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.wine {
+	float: left;
+	width: 380px;
+	height: 1000px;
+}
+.wine-margin {
+	margin-right: 80px;
+}
+.bottle {
+	height: 400px;
+	margin-left: 120px;
+}
+.wine h5 {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	padding: 5px 0px 10px 0px;
+}
+.wine h6 {
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.wine a {
+	padding: 10px 25px;
+	background-color:   #77b300;
+	color: white;
+	text-decoration: none;
+	margin-left: 130px
 }
