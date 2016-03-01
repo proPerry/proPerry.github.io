@@ -1,0 +1,32 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+#hero {
+	background-image: url(../img/hqdefault.jpg);
+	background-repeat: no-repeat;
+	background-size: 600px 420px;
+	height: 330px;
+	width: 605px;
+}
+h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-size: 45px;/*Needs new font*/
+	color: white;
+	text-shadow: 3px 1px 1px black;
+}
+h5 {
+	color: white;
+	text-align: center;
+	text-shadow: 3px 1px 1px black;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.history {
+	width: 350px;
+	height: 35px
+}
+ {
+	width: 35px;
+}

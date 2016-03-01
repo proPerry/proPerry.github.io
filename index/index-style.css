@@ -1,29 +1,39 @@
 /*Work In Progress*/
 body {
-    width: 1024px;
-    background-color: blueviolet;
+    width: 80%;
+    background-color: #85adad;
     color: white;
     font-family:sans-serif;
-    margin: auto;
+    margin: 0 auto;
 }
 .one {
     width: 768px;
     height: 300px;
-    background-color:dodgerblue;
+    background-image:url(../index/img/turtle.png);
     border-radius: 0px 30px 0px 0px;
     float: left;
     z-index: 1;
 }
+.one:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: 5px -5px 5px 5px #262626;
+}
 .two {
     width: 768px;
     height: 300px;
-    background-color: green;
+	background-image: url(img/news.png);
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
     top: -200px;
     right: 100px;
     z-index: 2;
+}
+.two:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: -5px -5px 5px 5px #262626;
 }
 .three {
     width: 768px;
@@ -34,6 +44,11 @@ body {
     position:relative;
     top: -400px;
     z-index: 3;
+}
+.three:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: 5px -5px 5px 5px #262626;
 }
 .four {
     width: 768px;
@@ -46,6 +61,11 @@ body {
     right: 100px;
     z-index: 4;
 }
+.four:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: -5px -5px 5px 5px #262626;
+}
 .five {
     width: 768px;
     height: 300px;
@@ -55,6 +75,11 @@ body {
     position:relative;
     top: -800px;
     z-index: 5;
+}
+.five:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: 5px -5px 5px 5px #262626;
 }
 .six {
    width: 768px;
@@ -67,6 +92,11 @@ body {
     right: 100px;
     z-index: 6; 
 }
+.six:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: -5px -5px 5px 5px #262626;
+}
 .seven {
     width: 768px;
     height: 300px;
@@ -76,6 +106,11 @@ body {
     position:relative;
     top: -1200px;
     z-index: 7;
+}
+.seven:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: 5px -5px 5px 5px #262626;
 }
 .eight {
    width: 768px;
@@ -87,6 +122,11 @@ body {
     top: -1400px;
     right: 100px;
     z-index: 8; 
+}
+.eight:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: -5px -5px 5px 5px #262626;
 }
 .left {
     float: right;
