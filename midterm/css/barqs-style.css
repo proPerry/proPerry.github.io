@@ -1,12 +1,30 @@
+body {
+	font-family: 'Noto Serif', serif;
+}
 .container {
-	width: 80%;
+	width: 1024px;
 	margin: 0 auto;
+}
+header {
+	padding: 10px;
 }
 h4 {
 	float: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 }
 nav {
 	float: right;
+	font-family: 'Lato', sans-serif;
+}
+header nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 10px;
+}
+header nav a:hover {
+	text-decoration: underline;
 }
 .clear-fix:after {
     content:'';
@@ -15,36 +33,106 @@ nav {
 }
 #hero {
 	margin: 0 auto;
-	background-image: url(../img/hqdefault.jpg);
-	background-repeat: no-repeat;
-	background-size: 600px 420px;
-	height: 330px;
-	width: 605px;
+	background-image: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%, rgba(0,0,0,0.3) 100%), url('../img/download2_1024x768.jpg');
+	background-position: -50px -20px;
+	background-size: 1400px 1000px;
+	font-family: 'Lato', sans-serif;
+	height: 600px;
+	width: 1000px;
+}
+#hero a {
+	margin: 70px 450px;/*Not working*/
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 35px;
+	padding: 5px 15px;
+	border: 3px solid white;
+	border-radius: 3px;
 }
 h1 {
 	text-align: center;
-	padding-top: 100px;
-	font-size: 45px;/*Needs new font*/
+	padding-top: 150px;
+	font-size: 100px;
+	font-weight: 700;
 	color: white;
-	text-shadow: 3px 1px 1px black;
+	text-shadow: 5px 2px 1px black;
 }
 h5 {
 	color: white;
 	text-align: center;
-	text-shadow: 3px 1px 1px black;
-	padding-top: 30px;
-	font-size: 20px;
+	font-weight: 700;
+	text-shadow: 2px 1px 3px black;
+	padding-top: 40px;
+	font-size: 50px;
 }
 .logo{
-	width: 250px;
+	width: 300px;
+	margin-top: 70px;
 	float: left;
 }
 #history {
 	float: left;
 	width: 400px;
-	margin: 60px 10px 30px 30px;
+	margin: 80px 10px 30px 30px;
 }
 h3 {
-	font-size: 25px;
-	margin-bottom: 10px;
+	font-size: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#history p {
+	width: 450px;
+	font-size: 20px;
+}
+main .clear-fix h4 {
+	margin-top: 5px;
+}
+.ad-space {
+	background-color:#B0B9C0;
+	margin-top: 15px;
+}
+.ad {
+	float: left;
+	margin: 50px 0px 15px;
+}
+.sub-set {
+	width: 100px;
+	margin-left: 30px;
+}
+.ad-margin {
+	margin-left: 50px;
+}
+.ad-img {
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+}
+.sub-set h6 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin: 5px 0px 15px 0px;
+	font-size: 20px;
+}
+.clear-fix .sub-set p {
+	text-align: center;
+}
+.news {
+	float: left;
+	margin-top: 25px;
+	margin-left: 100px;
+}
+.news-img {
+	width: 350px;
+	height: 200px;
+}
+.news p {
+	width: 350px;
+	text-align: center;
+	margin-top: 5px;
+}
+.news .date {
+	text-align: right;
 }
