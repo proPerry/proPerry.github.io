@@ -1,150 +1,146 @@
 /*Work In Progress*/
 body {
-    width: 100%;
+    width: 80%;
     background-color: #85adad;
     color: white;
     font-family:sans-serif;
     margin: 0 auto;
 }
+#border {
+	border: 10px double;
+}
+.clear-fix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
 .one {
-    width: 1400px;
-    height: 300px;
+	width: 65%;
+	height: 250px;
     background-color: #00061a;
     border-radius: 0px 30px 0px 0px;
     float: left;
-    z-index: 1;
 }
 .one:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .two {
-    width: 1400px;
-    height: 300px;
+    width: 65%;
+    height: 250px;
 	background-color: #000d33;
 	border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
-    top: -200px;
-    right: 100px;
-    z-index: 2;
+	top: -150px;
 }
 .two:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: -5px -5px 5px 5px #262626;
 }
 .three {
-    width: 1400px;
-    height: 300px;
+    width: 65%;
+    height: 250px;
     background-color: #00134d;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
-    top: -400px;
-    z-index: 3;
-}
-.three:hover {
-	width: 800px;
-	height: 320px;
+    top: -300px;
+}.three:hover {
+	width: 80%;
+	height: 250px;
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .four {
-    width: 1400px;
-    height: 300px;
+    width: 65%;
+    height: 250px;
     background-color: #001a66;
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
-    top: -600px;
-    right: 100px;
-    z-index: 4;
+    top: -450px;
 }
 .four:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: -5px -5px 5px 5px #262626;
 }
 .five {
-    width: 1400px;
-    height: 300px;
+    width: 65%;
+    height: 250px;
     background-color:#002080;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
-    top: -800px;
-    z-index: 5;
+    top: -600px;
 }
 .five:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .six {
-   width: 1400px;
-    height: 300px;
+   width: 65%;
+    height: 250px;
     background-color:#002699;
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
-    top: -1000px;
-    right: 100px;
-    z-index: 6; 
+    top: -750px;
 }
 .six:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: -5px -5px 5px 5px #262626;
 }
 .seven {
-    width: 1400px;
-    height: 300px;
+    width: 65%;
+    height: 250px;
     background-color:#002db3;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
-    top: -1200px;
-    z-index: 7;
+    top: -900px;
 }
 .seven:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .eight {
-   width: 1400px;
-    height: 300px;
+   width: 65%;
+    height: 250px;
     background-color:#0033cc;
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
-    top: -1400px;
-    right: 100px;
-    z-index: 8; 
+    top: -1050px;
 }
 .eight:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: -5px -5px 5px 5px #262626;
-}.nine {
-    width: 1400px;
-    height: 300px;
+}
+.nine {
+    width: 65%;
+    height: 250px;
     background-color:#0039e6;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
-    top: -1600px;
-    z-index: 9;
+    top: -1200px;
 }
 .nine:hover {
-	width: 800px;
-	height: 320px;
+	width: 80%;
+	height: 250px;
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .left {
     float: right;
     color: white;
+	text-decoration: none;
     padding-right: 25px;
     padding-top:10px;
     font-size: 40px;
@@ -152,6 +148,7 @@ body {
 .right {
     float: left;
     color: white;
+	text-decoration: none;
     padding-left: 25px;
     padding-top:10px;
     font-size: 40px;
