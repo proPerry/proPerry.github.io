@@ -1,15 +1,15 @@
 /*Work In Progress*/
 body {
-    width: 80%;
+    width: 100%;
     background-color: #85adad;
     color: white;
     font-family:sans-serif;
     margin: 0 auto;
 }
 .one {
-    width: 768px;
+    width: 1400px;
     height: 300px;
-    background-image:url(../index/img/turtle.png);
+    background-color: #00061a;
     border-radius: 0px 30px 0px 0px;
     float: left;
     z-index: 1;
@@ -20,10 +20,10 @@ body {
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .two {
-    width: 768px;
+    width: 1400px;
     height: 300px;
-	background-image: url(img/news.png);
-    border-radius: 30px 0px 0px 0px;
+	background-color: #000d33;
+	border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
     top: -200px;
@@ -36,9 +36,9 @@ body {
 	box-shadow: -5px -5px 5px 5px #262626;
 }
 .three {
-    width: 768px;
+    width: 1400px;
     height: 300px;
-    background-color: orange;
+    background-color: #00134d;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
@@ -51,9 +51,9 @@ body {
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .four {
-    width: 768px;
+    width: 1400px;
     height: 300px;
-    background-color: darkred;
+    background-color: #001a66;
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
@@ -67,9 +67,9 @@ body {
 	box-shadow: -5px -5px 5px 5px #262626;
 }
 .five {
-    width: 768px;
+    width: 1400px;
     height: 300px;
-    background-color:darkslategray;
+    background-color:#002080;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
@@ -82,9 +82,9 @@ body {
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .six {
-   width: 768px;
+   width: 1400px;
     height: 300px;
-    background-color:deeppink;
+    background-color:#002699;
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
@@ -98,9 +98,9 @@ body {
 	box-shadow: -5px -5px 5px 5px #262626;
 }
 .seven {
-    width: 768px;
+    width: 1400px;
     height: 300px;
-    background-color:darkgoldenrod;
+    background-color:#002db3;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
@@ -113,9 +113,9 @@ body {
 	box-shadow: 5px -5px 5px 5px #262626;
 }
 .eight {
-   width: 768px;
+   width: 1400px;
     height: 300px;
-    background-color:greenyellow;
+    background-color:#0033cc;
     border-radius: 30px 0px 0px 0px;
     float: right;
     position:relative;
@@ -127,6 +127,20 @@ body {
 	width: 800px;
 	height: 320px;
 	box-shadow: -5px -5px 5px 5px #262626;
+}.nine {
+    width: 1400px;
+    height: 300px;
+    background-color:#0039e6;
+    border-radius: 0px 30px 0px 0px;
+    float: left;
+    position:relative;
+    top: -1600px;
+    z-index: 9;
+}
+.nine:hover {
+	width: 800px;
+	height: 320px;
+	box-shadow: 5px -5px 5px 5px #262626;
 }
 .left {
     float: right;
