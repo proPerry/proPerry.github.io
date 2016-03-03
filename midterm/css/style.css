@@ -1,0 +1,41 @@
+body {
+	width: 750px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+h2 {
+	width: 100%;
+	font-size: 150%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 5px 0px;
+	font-weight: lighter;
+	margin-bottom: -1px;
+}
+#pizza {
+	background-image: url('../pizza-img/pizza.png');
+	background-size: 100%;
+	height: 200px;
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	font-weight: lighter;
+}
+p {
+	width: 80%;
+	margin: auto;
+}
+footer {
+	margin-top: 100px;
+}
+.bottom {
+	width: 200px;
+	height: 200px;
+	margin-right: 70px;
+}
+.bottom-right {
+	height: 200px;
+	width: 200px
+}

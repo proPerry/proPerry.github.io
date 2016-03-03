@@ -64,6 +64,7 @@ h5 {
 	text-align: center;
 	font-weight: 700;
 	text-shadow: 2px 1px 3px black;
+	margin-bottom: 30px;
 	padding-top: 40px;
 	font-size: 50px;
 }
@@ -99,7 +100,7 @@ main .clear-fix h4 {
 }
 .sub-set {
 	width: 100px;
-	margin-left: 30px;
+	margin-left: 25px;
 }
 .ad-margin {
 	margin-left: 50px;
@@ -135,4 +136,10 @@ main .clear-fix h4 {
 }
 .news .date {
 	text-align: right;
+}
+.footer {
+	background-image: url('../img/BarqsRootBeer-604-st-604-337-77ffe81f.jpg');
+	background-repeat: no-repeat;
+	height: 337px;
+	width: 604px;
 }
