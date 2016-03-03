@@ -41,12 +41,13 @@ header nav a:hover {
 	width: 1000px;
 }
 #hero a {
-	margin: 70px 450px;/*Not working*/
+	margin: 70px 450px;
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 35px;
+	background-color: black;
 	padding: 5px 15px;
 	border: 3px solid white;
 	border-radius: 3px;
@@ -78,7 +79,7 @@ h5 {
 	width: 400px;
 	margin: 80px 10px 30px 30px;
 }
-h3 {
+#brief {
 	font-size: 30px;
 	margin-bottom: 15px;
 	text-align: center;
@@ -92,7 +93,14 @@ main .clear-fix h4 {
 }
 .ad-space {
 	background-color:#B0B9C0;
-	margin-top: 15px;
+	margin-top: 30px;
+	width: 1000px;
+}
+h3 {
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	padding: 15px 0px 0px 15px;
 }
 .ad {
 	float: left;
@@ -122,7 +130,7 @@ main .clear-fix h4 {
 }
 .news {
 	float: left;
-	margin-top: 25px;
+	margin-top: 40px;
 	margin-left: 100px;
 }
 .news-img {
@@ -138,8 +146,32 @@ main .clear-fix h4 {
 	text-align: right;
 }
 .footer {
-	background-image: url('../img/BarqsRootBeer-604-st-604-337-77ffe81f.jpg');
+	background-image:
+		linear-gradient(to bottom, rgba(20,20,20,0.5) 0%, rgba(0,0,0,0.7) 100%),url('../img/Barqs-Redesign.jpg');
 	background-repeat: no-repeat;
-	height: 337px;
-	width: 604px;
+	background-size: 100%;
+	height: 410px;
+	width: 1000px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+h2 {
+	text-align: center;
+	font-size: 3em;
+	padding: 80px 30px 50px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+}
+.footer a {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 35px;
+	padding: 5px 15px;
+	background-color: black;
+	border: 3px solid white;
+	border-radius: 3px;
+	margin-left: 200px;
 }
