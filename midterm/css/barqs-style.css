@@ -97,21 +97,24 @@ main .clear-fix h4 {
 	width: 1000px;
 }
 h3 {
-	float: left;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	padding: 15px 0px 0px 15px;
 }
+.left-ad {
+	margin-left: 80px;
+}
 .ad {
 	float: left;
-	margin: 50px 0px 15px;
+	margin-top: 50px;
+	margin-bottom: 15px;
 }
 .sub-set {
 	width: 100px;
 	margin-left: 25px;
 }
 .ad-margin {
-	margin-left: 50px;
+	margin-left: 70px;
 }
 .ad-img {
 	border: 1px solid black;
