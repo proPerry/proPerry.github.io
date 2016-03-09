@@ -1,0 +1,40 @@
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+main {
+	background-image: url('../img/sub_header_home.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+}
+main h3 {
+	color: #fff;
+	font-size: 50px; 
+	font-weight: 200;
+	padding: 100px 150px 15px;
+}
+main h6 {
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 200;
+	padding: 0px 290px;
+}
+footer .bottom {
+	width: 225px;
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+}
+.right{
+	margin-left: 35px;
+}
+.bottom h5 {
+	font-size: 17px;
+	font-weight: 600;
+	margin: 15px;
+}
+.bottom p {
+	font-size: 12px;
+}
