@@ -67,3 +67,25 @@ footer .bottom {
 		font-size: 13px;
 	}
 }
+@media (max-width: 767px) {
+	main {
+		width: 740px;
+		height: 700px;
+	}
+	main h3 {
+		font-size: 70px;
+		text-align: center;
+		padding: 230px 70px 20px
+	}
+	main h6 {
+		padding: 0px 145px;
+	}
+	.bottom {
+		float: none;
+		clear: left;
+		margin: 30px 200px;
+	}
+	.bottom p {
+		font-size: 15px;
+	}
+}
