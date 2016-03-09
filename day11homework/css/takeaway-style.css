@@ -26,9 +26,10 @@ footer .bottom {
 	float: left;
 	text-align: center;
 	margin-top: 10px;
+	margin-right: 35px;
 }
-.right{
-	margin-left: 35px;
+.bottom:last-of-type {
+	margin-right: -35px;
 }
 .bottom h5 {
 	font-size: 17px;
@@ -37,4 +38,32 @@ footer .bottom {
 }
 .bottom p {
 	font-size: 12px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	main {
+		height: 420px;
+	}
+	main h3 {
+		font-size: 70px;
+		padding: 100px 25px 20px;
+	}
+	main h6 {
+		font-size: 20px;
+		padding: 0px 250px;
+	}
+	.right {
+		clear: left;
+	}
+	.bottom {
+		margin: 50px 170px;
+	}
+	img {
+		width: 100px;
+	}
+	.bottom h5 {
+		font-size: 20px
+	}
+	.bottom p {
+		font-size: 13px;
+	}
 }
