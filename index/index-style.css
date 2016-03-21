@@ -165,7 +165,7 @@ body {
 }
 .tweleve:hover {
 	height: 250px;
-	box-shadow: 5px -5px 5px 5px #262626;
+	box-shadow: 5px -5px 5px 5px #262626;/*fix later*/
 }
 .left {
     float: right;
