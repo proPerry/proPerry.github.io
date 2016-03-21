@@ -79,11 +79,16 @@ p {
 		font-weight: 200;
 		padding: 20px 125px;
 	}
+	header {
+		width: 50%;
+	}
 	h2:nth-child(1) {
-		width: 65%;
 		text-align: left;
-		font-size: 3.5em;
+		font-size: 3.em;
 		padding: 70px 50px 120px;
+	}
+	aside {
+		margin-left: 20px;
 	}
 	#black {
 		width: 75%;
