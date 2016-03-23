@@ -1,0 +1,65 @@
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+main {
+	background-image: url('../img/sub_header_home.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+}
+main h3 {
+	font-family: serif;
+	color: #fff;
+	font-size: 40px; 
+	font-weight: 200;
+	padding: 100px 0px 15px 200px;
+}
+main h6 {
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 200;
+	padding: 0px 0px 0px 270px;
+}
+footer .bottom {
+	text-align: center;
+    margin-top: 20px;
+}
+.bottom h5 {
+	font-size: 17px;
+	font-weight: 600;
+	margin: 15px;
+}
+.bottom p {
+	font-size: 12px;
+}
+@media (max-width: 991px) and (min-width: 769px) {
+	body {
+		width: 991px;
+	}
+	main h3 {
+		font-size: 50px;
+		padding: 100px 0px 10px 5px;
+	}
+	main h6 {
+		padding: 0px 0px 0px 150px;
+	}
+}
+@media (max-width: 768px) {
+	body {
+		width: 768px;
+	}
+	main {
+		width: 75%;
+		height: 450px;
+		margin: none;
+	}
+	main h3 {
+		font-size: 50px;
+		padding: 120px 0px 30px 60px;
+	}
+	main h6 {
+		padding: 0px 20px;
+	}
+}
