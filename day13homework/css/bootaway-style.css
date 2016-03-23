@@ -2,20 +2,20 @@ body {
 	width: 1024px;
 	margin: 0 auto;
 }
-main {
+.main {
 	background-image: url('../img/sub_header_home.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 320px;
 }
-main h3 {
+.main h3 {
 	font-family: serif;
 	color: #fff;
 	font-size: 40px; 
 	font-weight: 200;
 	padding: 100px 0px 15px 200px;
 }
-main h6 {
+.main h6 {
 	font-family: sans-serif;
 	color: #fff;
 	font-size: 17px;
@@ -38,28 +38,27 @@ footer .bottom {
 	body {
 		width: 991px;
 	}
-	main h3 {
+	.main h3 {
 		font-size: 50px;
-		padding: 100px 0px 10px 5px;
+		padding: 100px 0px 10px 100px;
 	}
-	main h6 {
-		padding: 0px 0px 0px 150px;
+	.main h6 {
+		padding: 0px 0px 0px 220px;
 	}
 }
 @media (max-width: 768px) {
-	body {
-		width: 768px;
+	.body {
+		width: 700px;
 	}
-	main {
-		width: 75%;
+	.main {
 		height: 450px;
 		margin: none;
 	}
-	main h3 {
-		font-size: 50px;
-		padding: 120px 0px 30px 60px;
+	.main h3 {
+		font-size: 60px;
+		padding: 120px 0px 30px 100px;
 	}
-	main h6 {
-		padding: 0px 20px;
+	.main h6 {
+		padding: 0px 110px;
 	}
 }
