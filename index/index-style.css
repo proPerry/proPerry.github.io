@@ -165,7 +165,20 @@ body {
 }
 .tweleve:hover {
 	height: 250px;
-	box-shadow: 5px -5px 5px 5px #262626;/*fix later*/
+	box-shadow: -5px -5px 5px 5px #262626;
+}
+.thirteen {
+    width: 65%;
+    height: 250px;
+    background-color: #4d79ff;
+    border-radius: 0px 30px 0px 0px;
+    float: left;
+    position:relative;
+    top: -1800px;
+}
+.thirteen:hover {
+	height: 250px;
+	box-shadow: 5px -5px 5px 5px #262626;
 }
 .left {
     float: right;
