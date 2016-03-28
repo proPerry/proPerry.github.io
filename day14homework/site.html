@@ -2,19 +2,51 @@
 <html>
 
 <head>
-    <title>Template</title>
+    <title>Tech</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/site-style.css"/>
 </head>
 
-<body>
-    <header>
-      <img src="img/bg.jpg"/>
+<body class="container">
+  <div class="row">
+    <header class="col-md-9 col-sm-12">
+      <img class="img-responsive" src="img/bg.jpg"/>
     </header>
-    <main></main>
-	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<aside class="visible-md visible-lg col-md-3">
+      <h5>Top Stories</h5>
+      <hr />
+      <p class="story">Stanford Reasearchers make an artificial skin that senses touch</p>
+      <p class="story">3 new ways to wear your favorite chambray shirt</p>
+      <p class="story">where to buy your next rug</p>
+      <p class="story">chukkas that offer casual, comfortable style</p>
+    </aside>
+    <main class="col-md-9 col-sm-12">
+      <h3>Tomorrow's Technology, Yesterday's Insights</h3>
+      <h4>Sometimes what the tech world comes up with has already been tried and rejected and really doesn't need to be resurrected&mdash;like the Taylorist view...</h4>
+      <a class="col-md-1 tech" href="#">Technology</a>
+    </main>
+    <div class="container">
+    <footer class="row visible-xs footer">
+      <div class="col-xs-4">
+        <h6>useful links</h6>
+        <p>about</p> <hr />
+        <p>jobs</p> <hr />
+        <p>team</p> <hr />
+        <p>advertise</p> <hr />
+        <p>terms</p>
+      </div>
+      <div class="col-xs-4 col-xs-offset-3">
+        <h6>social media</h6>
+        <p>facebook</p> <hr />
+        <p>instagram</p> <hr />
+        <p>twitter</p> <hr />
+      </div>
+    </footer>
+    </div>
+	<script src="//code.jquery.com/-1.12.0.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </div>
 </body>
 
 </html>
