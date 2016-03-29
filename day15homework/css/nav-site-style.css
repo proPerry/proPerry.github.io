@@ -1,0 +1,12 @@
+.hero {
+  background-image: url('http://foundry.mediumra.re/img/wine14.jpg');
+  background-size: cover;
+	background-position: center;
+}
+h4 {
+  color: #fff;
+}
+#david {
+  color: #fff
+  font-family:sans-serif;
+}
