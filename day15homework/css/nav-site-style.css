@@ -7,6 +7,14 @@ h4 {
   color: #fff;
 }
 #david {
-  color: #fff
+  color: #fff;
   font-family:sans-serif;
+}
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #818080;
+}
+h3 {
+	font-style: italic;
 }
