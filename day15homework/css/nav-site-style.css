@@ -18,15 +18,27 @@ h2 {
 h3 {
 	font-style: italic;
 }
+.washer {
+  background-image: url('http://foundry.mediumra.re/img/wine16.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+.anti-hero {
+  background-image: linear-gradient(to bottom, rgba(20,20,20,0.3) 0%, rgba(0,0,0,0.3) 30%), url('http://foundry.mediumra.re/img/wine13.jpg');
+  background-size: cover;
+  background-position: center;
+}
 h1 {
   color: #fff;
   font-style: italic;
-  font-size:30px;
-  margin: 60px 0px 20px;
+  font-size:35px;
+  margin: 80px 0px 20px;
 }
 h5 {
   color: #fff;
   line-height: 1.8;
+  margin-bottom: 15px;
 }
 .wine {
   font-style: italic;
@@ -41,22 +53,10 @@ h6 {
 .power {
   height: 400px;
 }
-.washer {
-  background-image: url('http://foundry.mediumra.re/img/wine16.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-}
 .visit {
   color: #fff;
   font-family: sans-serif;
   text-decoration: none;
   background-color: #4f961d;
   padding: 10px 20px;
-}
-.anti-hero {
-  background-image: linear-gradient(to bottom, rgba(20,20,20,0.3) 0%, rgba(0,0,0,0.3) 30%), url('http://foundry.mediumra.re/img/wine13.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 250px;
 }
