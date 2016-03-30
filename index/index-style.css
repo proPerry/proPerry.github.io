@@ -196,11 +196,11 @@ body {
 .fifteen {
     width: 65%;
     height: 250px;
-    background-color: #668cff;
+    background-color: #809fff;
     border-radius: 0px 30px 0px 0px;
     float: left;
     position:relative;
-    top: -1800px;
+    top: -2100px;
 }
 .fifteen:hover {
 	height: 250px;
