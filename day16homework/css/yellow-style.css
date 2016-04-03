@@ -5,5 +5,15 @@ div {
   height: 400px;
 }
 .yellow {
-  background-color: yellow;
+  background-color: #ebff00;
+}
+h1 {
+  font-size: 48px;
+}
+.light-grey {
+  background-color: #c4c4c4;
+  height: 250px;
+}
+.grey {
+  background-color: #c4c4c4;
 }
