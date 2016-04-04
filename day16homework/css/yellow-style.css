@@ -86,7 +86,7 @@ img:nth-child(1){
   }
   .yellow:last-of-type {
     position: relative;
-    top: 700px;
+    top: 440px;
     height: 160px;
   }
 }

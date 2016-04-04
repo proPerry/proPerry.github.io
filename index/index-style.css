@@ -226,7 +226,7 @@ body {
     float: right;
     color: white;
 	text-decoration: none;
-    padding-right: 35px;
+    padding-right: 20%;
     padding-top:10px;
     font-size: 40px;
 }
@@ -234,7 +234,7 @@ body {
     float: left;
     color: white;
 	text-decoration: none;
-    padding-left: 35px;
+    padding-left: 20%;
     padding-top:10px;
     font-size: 40px;
 }
