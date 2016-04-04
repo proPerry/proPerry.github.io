@@ -71,3 +71,22 @@ img:nth-child(1){
     padding: 100px 0px 20px 30px;
   }
 }
+@media (max-width: 768px) {
+  .yellow {
+    height: 430px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 13px;
+  }
+  div {
+    height: 618px;
+  }
+  .yellow:last-of-type {
+    position: relative;
+    top: 700px;
+    height: 160px;
+  }
+}
