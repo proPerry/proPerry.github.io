@@ -1,7 +1,8 @@
 body {
     cursor: crosshair;
+    background-color: #c2c2c2;
 }
-.hero {
+#hero {
     background-image: linear-gradient(to bottom, rgba(20,20,20,0.5) 0%, rgba(0,0,0,0.4) 900%), url('../img/img_34471.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,31 +15,51 @@ body {
 .main {
     margin-top: 50px;
 }
-.north {
+#locations {
     background-image: linear-gradient(to bottom, rgba(20,20,20,0.5) 0%, rgba(0,0,0,0.4) 100%), url('../img/shop4outsidethumb_north.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 150px;
 }
 .central {
-    background-image: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%, rgba(0,0,0,0.3) 100%), url('../img/shop1outsidethumb_central.jpg');
+    background-image: linear-gradient(to bottom, rgba(20,20,20,0.6) 0%, rgba(0,0,0,0.5) 100%), url('../img/shop1outsidethumb_central.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 150px;
 }
 .south {
-    background-image: linear-gradient(to bottom, rgba(20,20,20,0.4) 0%, rgba(0,0,0,0.3) 100%), url('../img/shop3outsidethumb_south.jpg');
+    background-image: linear-gradient(to bottom, rgba(20,20,20,0.6) 0%, rgba(0,0,0,0.5) 100%), url('../img/shop3outsidethumb_south.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 150px;
 }
 h6 {
-    color: #f00706;
-    font-size: 20px;
+    padding-top: 20px;
+    color: #b50505;
+    font-size: 25px;
     font-weight: 600;
 }
 .address {
     color: #d4d3d3;
+}
+h2 {
+    color: #fff;
+}
+.white-text {
+    color: #fff;
+    line-height: 1.5;
+}
+#shop {
+    background-color: #CC0001;
+}
+.black-shirt {
+    height: 192px;
+}
+#history {
+    background-color: #CC0001;
 }
 h5 {
     color: #fff;
@@ -46,16 +67,17 @@ h5 {
     text-shadow: 2px 2px 5px #000;
     padding-top: 15px;
 }
-.footer a {
+#social-media a {
     color: #000;
     font-size: 25px;
     border: 2px groove black;
     border-radius: 5px;
     font-weight:600;
     text-decoration: none;
-    background-color: #fff;
+    background:  linear-gradient(to bottom, rgba(20,20,20,0.2) 0%, rgba(0,0,0,0.1) 50%), #fff;
+    padding: 2px 4px;
 }
-.footer {
+#social-media {
     background-image: linear-gradient(to bottom, rgba(20,20,20,0.7) 0%, rgba(0,0,0,0.5) 100%), url('../img/characters color_flat_copy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
