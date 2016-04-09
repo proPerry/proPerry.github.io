@@ -60,6 +60,12 @@ h2 {
     color: #fff;
     line-height: 1.5;
 }
+.shop-text {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .map {
     height: 500;
     frameborder: 0;
@@ -79,7 +85,11 @@ h2 {
 #shop {
     background-color: #CC0001;
 }
-.black-shirt {
+.shirt {
+    height: 192px;
+    margin-top: 17px;
+}
+.hat {
     height: 192px;
 }
 #history {
