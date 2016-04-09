@@ -60,6 +60,22 @@ h2 {
     color: #fff;
     line-height: 1.5;
 }
+.map {
+    height: 500;
+    frameborder: 0;
+    border: 0;
+    pointer-events: none;
+}
+.local-button {
+    color: #000;
+    font-size: 25px;
+    border: 2px groove black;
+    border-radius: 5px;
+    font-weight:600;
+    text-decoration: none;
+    background:  linear-gradient(to bottom, rgba(20,20,20,0.2) 0%, rgba(0,0,0,0.1) 50%), #fff;
+    padding: 2px 4px;
+}
 #shop {
     background-color: #CC0001;
 }
@@ -95,5 +111,11 @@ h5 {
     .logo {
         transform: scale(2,2);
         padding: 150px 200px;
+    }
+}
+@media (max-width: 768px) {
+    .logo {
+        transform: scale(1.5,1.5);
+        padding: 150px 100px;
     }
 }
