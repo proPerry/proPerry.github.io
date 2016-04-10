@@ -127,17 +127,17 @@
         <div class="row">
             <div id="shop" class="col-md-6 clearfix">
                 <h2>Gear</h2>
-                <div class="col-md-6 col-sm-8 col-xs-6">
-                    <img class="img-responsive text-center shirt" src="img/blackshirtthumb.jpg" />
-                    <p class="shop-text text-center">Black Shirt - $18.00</p>
-                    <img class="img-responsive hat" src="img/blackhatthumb.jpg" />
-                    <p class="shop-text text-center">Black Hat - $20.00</p>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <img class="col-sm-offset-2 img-responsive text-center shirt" src="img/blackshirtthumb.jpg" />
+                    <p class="col-sm-offset-2 shop-text">Black Shirt - $18.00</p>
+                    <img class="col-sm-offset-2 img-responsive hat" src="img/blackhatthumb.jpg" />
+                    <p class="col-sm-offset-2 shop-text">Black Hat - $20.00</p>
                 </div>
                 <div class="col-md-6 col-xs-6">
-                    <img class="img-responsive shirt" src="img/tiedyeshirtthumb.jpg" />
-                    <p class="shop-text text-center">Tie-Dye Shirt - $18.00</p>
-                    <img class="img-responsive hat" src="img/whitehatthumb.jpg" />
-                    <p class="shop-text text-center">White Hat - $20.00</p>
+                    <img class="col-sm-offset-2 img-responsive shirt" src="img/tiedyeshirtthumb.jpg" />
+                    <p class="col-sm-offset-2 shop-text">Tie-Dye Shirt - $18.00</p>
+                    <img class="col-sm-offset-2 img-responsive hat" src="img/whitehatthumb.jpg" />
+                    <p class="col-sm-offset-2 shop-text">White Hat - $20.00</p>
                 </div>
             </div>
 
@@ -160,13 +160,18 @@
 
     <div class="row">
         <footer id="social-media" class="col-md-8 col-md-offset-2">
-            <h5 class="social-text col-md-offset-4 col-sm-offset-3 col-xs-offset-2">Follow us on social media!</h5>
+            <h5 class="social-text col-md-offset-4 col-sm-offset-4 col-xs-offset-2">Follow us on social media!</h5>
             <a class="col-md-offset-4 col-sm-offset-4 col-xs-offset-2 fa fa-facebook-square" href="https://www.facebook.com/ConansPizzaATX"> Facebook</a>
             <a class="col-md-offset-1 fa fa-twitter-square" href="https://twitter.com/conanspizza"> Twitter</a>
         </footer>
     </div>
 
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js">
+    $('#pickup-date2').show(0,function(){
+        $('iframe',this)
+          .attr('src','http://mapsengine.google.com/map/embed?mid=zzFoZgN4yc_E.kT_V1HoEUMHs');
+      });
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 
