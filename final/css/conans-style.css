@@ -73,6 +73,7 @@ h2 {
     border: 0;
     pointer-events: none;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #shop {
     background-color: #CC0001;
@@ -116,8 +117,11 @@ h5 {
     }
 }
 @media (max-width: 768px) {
+    .legendary {
+        border-top: 1px solid #000;
+    }
     .logo {
-        transform: scale(1.5,1.5);
-        padding: 150px 100px;
+        transform: scale(1,1);
+        padding: 150px 10%;
     }
 }
