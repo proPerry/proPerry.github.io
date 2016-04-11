@@ -110,13 +110,13 @@ h5 {
     background-size: cover;
     background-position: center;
 }
-@media (max-width: 991px) and (min-width: 769px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .logo {
         transform: scale(1.5,1.5);
         padding: 150px 200px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .legendary {
         border-top: 1px solid #000;
     }
